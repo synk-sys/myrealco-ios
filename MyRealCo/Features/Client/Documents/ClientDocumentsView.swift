@@ -33,7 +33,7 @@ struct DocumentRow: View {
         VStack(alignment: .leading, spacing: 6) {
             HStack {
                 Image(systemName: "doc.fill")
-                    .foregroundStyle(Color.accentColor)
+                    .foregroundStyle(Color.brandTeal)
                 Text(document.title)
                     .font(.headline)
             }
@@ -46,8 +46,8 @@ struct DocumentRow: View {
                     .font(.caption)
                     .padding(.horizontal, 8)
                     .padding(.vertical, 2)
-                    .background(Color.accentColor.opacity(0.15))
-                    .foregroundStyle(Color.accentColor)
+                    .background(Color.brandGold.opacity(0.15))
+                    .foregroundStyle(Color.brandGold)
                     .clipShape(Capsule())
                 Spacer()
                 Text("Sent \(document.sentAt.formatted(date: .abbreviated, time: .omitted))")

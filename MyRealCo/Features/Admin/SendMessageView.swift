@@ -53,7 +53,7 @@ struct SendMessageView: View {
                     } label: {
                         Image(systemName: "arrow.up.circle.fill")
                             .font(.system(size: 32))
-                            .foregroundStyle(messageText.isEmpty ? Color.secondary : Color.accentColor)
+                            .foregroundStyle(messageText.isEmpty ? Color.secondary : Color.brandTeal)
                     }
                     .disabled(messageText.isEmpty)
                 }
@@ -66,6 +66,7 @@ struct SendMessageView: View {
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Close") { dismiss() }
+                        .foregroundStyle(Color.brandTeal)
                 }
             }
         }

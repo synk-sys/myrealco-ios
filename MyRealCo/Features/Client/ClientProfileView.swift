@@ -10,7 +10,7 @@ struct ClientProfileView: View {
                     VStack(spacing: 8) {
                         Image(systemName: "person.circle.fill")
                             .font(.system(size: 72))
-                            .foregroundStyle(Color.accentColor)
+                            .foregroundStyle(Color.brandTeal)
                         Text(auth.currentUser?.name ?? "")
                             .font(.title2.bold())
                         Text(auth.currentUser?.email ?? "")
@@ -24,6 +24,7 @@ struct ClientProfileView: View {
                 if let phone = auth.currentUser?.phone {
                     Section("Contact") {
                         Label(phone, systemImage: "phone")
+                            .foregroundStyle(Color.brandTeal)
                     }
                 }
 

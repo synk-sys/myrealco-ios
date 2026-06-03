@@ -10,12 +10,12 @@ struct AdminProfileView: View {
                     VStack(spacing: 8) {
                         Image(systemName: "person.crop.circle.badge.checkmark")
                             .font(.system(size: 72))
-                            .foregroundStyle(Color.accentColor)
+                            .foregroundStyle(Color.brandTeal)
                         Text(auth.currentUser?.name ?? "")
                             .font(.title2.bold())
                         Text("Realtor · Admin")
                             .font(.subheadline)
-                            .foregroundStyle(.secondary)
+                            .foregroundStyle(Color.brandGold)
                         Text(auth.currentUser?.email ?? "")
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
@@ -27,6 +27,7 @@ struct AdminProfileView: View {
                 if let phone = auth.currentUser?.phone {
                     Section("Contact") {
                         Label(phone, systemImage: "phone")
+                            .foregroundStyle(Color.brandTeal)
                     }
                 }
 

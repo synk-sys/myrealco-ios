@@ -11,7 +11,6 @@ struct LoginView: View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 32) {
-                    // Header
                     VStack(spacing: 4) {
                         Image("AppLogo")
                             .resizable()
@@ -19,11 +18,10 @@ struct LoginView: View {
                             .frame(width: 200, height: 200)
                         Text("Your trusted real estate partner")
                             .font(.subheadline)
-                            .foregroundStyle(.secondary)
+                            .foregroundStyle(Color.brandTeal)
                     }
                     .padding(.top, 32)
 
-                    // Form
                     VStack(spacing: 16) {
                         VStack(alignment: .leading, spacing: 6) {
                             Text("Email").font(.caption).foregroundStyle(.secondary)
@@ -49,7 +47,7 @@ struct LoginView: View {
                         if !errorMessage.isEmpty {
                             Text(errorMessage)
                                 .font(.caption)
-                                .foregroundStyle(.red)
+                                .foregroundStyle(Color.brandRed)
                                 .frame(maxWidth: .infinity, alignment: .leading)
                         }
 
@@ -65,7 +63,7 @@ struct LoginView: View {
                             }
                             .frame(maxWidth: .infinity)
                             .padding()
-                            .background(Color.accentColor)
+                            .background(Color.brandTeal)
                             .foregroundStyle(.white)
                             .clipShape(RoundedRectangle(cornerRadius: 12))
                         }
@@ -73,7 +71,6 @@ struct LoginView: View {
                     }
                     .padding(.horizontal, 24)
 
-                    // Demo hint
                     VStack(spacing: 4) {
                         Text("Demo credentials").font(.caption).foregroundStyle(.secondary)
                         Text("Admin: admin@myrealco.com / admin123").font(.caption2).foregroundStyle(.secondary)

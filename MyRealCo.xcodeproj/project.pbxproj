@@ -19,6 +19,7 @@
 		6AA6B05F5ACB16FCB465DC27 /* AdminListingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D6AF8FFCE2AD4C11156064 /* AdminListingsView.swift */; };
 		88028C743ED07191314E3532 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC790CD985AF53118FB4D5A /* Message.swift */; };
 		88AD6F8582DE3F59BEB88A6C /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B273B4758C871641719C56 /* Appointment.swift */; };
+		8D43ADE09018F9C850872C55 /* BrandColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209125367EC0A476798ABF6F /* BrandColors.swift */; };
 		A4C0A810872166BA27A6E7BC /* AddEditListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7087B5A3B46A2EA99B2FD1 /* AddEditListingView.swift */; };
 		A5CEE0624F96DB7C1945747A /* ClientDocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA035470EF3788D2CD34F4 /* ClientDocumentsView.swift */; };
 		A8B7C8865BE054407DA1F5B3 /* ClientProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B795CA3ED43EBAF5693FE55 /* ClientProfileView.swift */; };
@@ -38,6 +39,7 @@
 		13C7737297767D7C69D2D3B4 /* ClientMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientMessagesView.swift; sourceTree = "<group>"; };
 		1B795CA3ED43EBAF5693FE55 /* ClientProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProfileView.swift; sourceTree = "<group>"; };
 		1FB3D04D7A6CC5775AD91B28 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		209125367EC0A476798ABF6F /* BrandColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandColors.swift; sourceTree = "<group>"; };
 		22891A58D1DF824C70A96461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		292EE49DFECA92AEDF872E2A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		2A7D80D16FECCBD8887906BA /* AdminProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProfileView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		3275F0A647ABEAD6FDDEBE86 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				209125367EC0A476798ABF6F /* BrandColors.swift */,
 				603AA859E3E4C20CBC2C3E0D /* MyRealCoApp.swift */,
 			);
 			path = App;
@@ -285,6 +288,7 @@
 				246A8E50F20A9B375BC6AC09 /* AdminRootView.swift in Sources */,
 				88AD6F8582DE3F59BEB88A6C /* Appointment.swift in Sources */,
 				273C63499994D415A0BC1C2C /* AuthService.swift in Sources */,
+				8D43ADE09018F9C850872C55 /* BrandColors.swift in Sources */,
 				E408AC63D76A0E5D1C435E1E /* ClientAppointmentsView.swift in Sources */,
 				A5CEE0624F96DB7C1945747A /* ClientDocumentsView.swift in Sources */,
 				E8F54641D44E921CF88B069D /* ClientMessagesView.swift in Sources */,

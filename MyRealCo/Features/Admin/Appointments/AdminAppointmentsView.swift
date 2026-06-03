@@ -84,7 +84,7 @@ struct AdminAppointmentRow: View {
 
             Label(appointment.listingAddress, systemImage: "mappin")
                 .font(.subheadline)
-                .foregroundStyle(.secondary)
+                .foregroundStyle(Color.brandTeal)
 
             Label(appointment.date.formatted(date: .abbreviated, time: .shortened), systemImage: "clock")
                 .font(.subheadline)
@@ -104,7 +104,7 @@ struct AdminAppointmentRow: View {
                     .font(.caption.bold())
             }
             .buttonStyle(.bordered)
-            .tint(.accentColor)
+            .tint(Color.brandTeal)
         }
         .padding(.vertical, 4)
     }
@@ -115,9 +115,9 @@ struct StatusBadge: View {
 
     var color: Color {
         switch status {
-        case .confirmed: return .green
-        case .pending: return .orange
-        case .cancelled: return .red
+        case .confirmed: return .brandTeal
+        case .pending:   return .brandGold
+        case .cancelled: return .brandRed
         case .completed: return .secondary
         }
     }
@@ -144,7 +144,7 @@ struct FilterChip: View {
                 .font(.subheadline)
                 .padding(.horizontal, 14)
                 .padding(.vertical, 6)
-                .background(isSelected ? Color.accentColor : Color(.systemGray5))
+                .background(isSelected ? Color.brandTeal : Color(.systemGray5))
                 .foregroundStyle(isSelected ? .white : .primary)
                 .clipShape(Capsule())
         }

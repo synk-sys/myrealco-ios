@@ -31,9 +31,9 @@ struct AppointmentRow: View {
 
     var statusColor: Color {
         switch appointment.status {
-        case .confirmed: return .green
-        case .pending: return .orange
-        case .cancelled: return .red
+        case .confirmed: return .brandTeal
+        case .pending:   return .brandGold
+        case .cancelled: return .brandRed
         case .completed: return .secondary
         }
     }

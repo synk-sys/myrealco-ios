@@ -7,7 +7,6 @@ struct AdminClientsView: View {
     @State private var selectedClientId = ""
     @State private var selectedClientName = ""
 
-    // Derive unique clients from appointments
     var clients: [(id: String, name: String, email: String)] {
         var seen = Set<String>()
         return data.appointments.compactMap { appt -> (String, String, String)? in
@@ -68,7 +67,7 @@ struct ClientLeadRow: View {
             HStack {
                 Image(systemName: "person.circle.fill")
                     .font(.system(size: 40))
-                    .foregroundStyle(Color.accentColor)
+                    .foregroundStyle(Color.brandTeal)
                 VStack(alignment: .leading, spacing: 2) {
                     Text(name).font(.headline)
                     Text(email).font(.subheadline).foregroundStyle(.secondary)
@@ -78,10 +77,11 @@ struct ClientLeadRow: View {
 
             HStack(spacing: 16) {
                 Label("\(appointmentCount) appt.", systemImage: "calendar")
+                    .foregroundStyle(Color.brandTeal)
                 Label("\(documentCount) docs", systemImage: "doc")
+                    .foregroundStyle(Color.brandGold)
             }
             .font(.caption)
-            .foregroundStyle(.secondary)
 
             HStack(spacing: 10) {
                 Button {
@@ -91,7 +91,7 @@ struct ClientLeadRow: View {
                         .font(.caption.bold())
                 }
                 .buttonStyle(.bordered)
-                .tint(.accentColor)
+                .tint(Color.brandGold)
 
                 Button {
                     onSendMessage()
@@ -100,7 +100,7 @@ struct ClientLeadRow: View {
                         .font(.caption.bold())
                 }
                 .buttonStyle(.bordered)
-                .tint(.accentColor)
+                .tint(Color.brandTeal)
             }
         }
         .padding(.vertical, 4)

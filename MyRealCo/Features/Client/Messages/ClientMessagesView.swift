@@ -47,13 +47,13 @@ struct MessageBubbleRow: View {
             if !isFromMe {
                 Text(message.senderName)
                     .font(.caption)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(Color.brandTeal)
             }
             Text(message.body)
                 .padding(.horizontal, 14)
                 .padding(.vertical, 10)
-                .background(isFromMe ? Color.accentColor : Color(.systemGray5))
-                .foregroundStyle(isFromMe ? .white : .primary)
+                .background(isFromMe ? Color.brandGold : Color.brandTeal)
+                .foregroundStyle(.white)
                 .clipShape(RoundedRectangle(cornerRadius: 16))
                 .frame(maxWidth: 280, alignment: isFromMe ? .trailing : .leading)
             Text(message.sentAt.formatted(date: .omitted, time: .shortened))

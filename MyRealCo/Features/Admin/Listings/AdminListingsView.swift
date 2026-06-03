@@ -28,7 +28,7 @@ struct AdminListingsView: View {
                                     } label: {
                                         Label("Edit", systemImage: "pencil")
                                     }
-                                    .tint(.orange)
+                                    .tint(Color.brandGold)
                                 }
                         }
                     }
@@ -41,6 +41,7 @@ struct AdminListingsView: View {
                     Button { showAddListing = true } label: {
                         Image(systemName: "plus")
                     }
+                    .tint(Color.brandTeal)
                 }
             }
             .sheet(isPresented: $showAddListing) {
@@ -66,9 +67,9 @@ struct AdminListingRow: View {
 
     var statusColor: Color {
         switch listing.status {
-        case .available: return .green
-        case .underContract: return .orange
-        case .sold: return .secondary
+        case .available:     return .brandTeal
+        case .underContract: return .brandGold
+        case .sold:          return .secondary
         }
     }
 
@@ -89,7 +90,7 @@ struct AdminListingRow: View {
             HStack {
                 Text(listing.price, format: .currency(code: "USD").precision(.fractionLength(0)))
                     .font(.subheadline.bold())
-                    .foregroundStyle(Color.accentColor)
+                    .foregroundStyle(Color.brandGold)
                 Spacer()
                 Text("\(listing.bedrooms)bd · \(listing.bathrooms)ba · \(listing.squareFeet) sqft")
                     .font(.caption)
