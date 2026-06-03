@@ -6,6 +6,7 @@ struct LoginView: View {
     @State private var password = ""
     @State private var errorMessage = ""
     @State private var isLoading = false
+    @State private var showPassword = false
 
     var body: some View {
         NavigationStack {
@@ -37,11 +38,28 @@ struct LoginView: View {
 
                         VStack(alignment: .leading, spacing: 6) {
                             Text("Password").font(.caption).foregroundStyle(.secondary)
-                            SecureField("••••••••", text: $password)
+                            HStack {
+                                Group {
+                                    if showPassword {
+                                        TextField("••••••••", text: $password)
+                                    } else {
+                                        SecureField("••••••••", text: $password)
+                                    }
+                                }
                                 .textContentType(.password)
-                                .padding()
-                                .background(Color(.systemGray6))
-                                .clipShape(RoundedRectangle(cornerRadius: 12))
+                                .autocorrectionDisabled()
+                                .textInputAutocapitalization(.never)
+
+                                Button {
+                                    showPassword.toggle()
+                                } label: {
+                                    Image(systemName: showPassword ? "eye.slash" : "eye")
+                                        .foregroundStyle(Color.brandTeal)
+                                }
+                            }
+                            .padding()
+                            .background(Color(.systemGray6))
+                            .clipShape(RoundedRectangle(cornerRadius: 12))
                         }
 
                         if !errorMessage.isEmpty {
