@@ -16,7 +16,7 @@ class AuthService: ObservableObject {
     func login(email: String, password: String) throws -> AppUser {
         // Mock credentials — replace with real backend auth
         let mockUsers: [(email: String, password: String, user: AppUser)] = [
-            ("admin@myrealco.com", "admin123", AppUser(id: "admin-1", name: "Sarah Johnson", email: "admin@myrealco.com", role: .admin, phone: "555-0100")),
+            ("admin@myrealco.com", "admin123", AppUser(id: "admin-1", name: "Sanjeev Manocha", email: "admin@myrealco.com", role: .admin, phone: "555-0100")),
             ("client@myrealco.com", "client123", AppUser(id: "client-1", name: "Alex Martinez", email: "client@myrealco.com", role: .client, phone: "555-0200")),
             ("client2@myrealco.com", "client123", AppUser(id: "client-2", name: "Jamie Lee", email: "client2@myrealco.com", role: .client, phone: "555-0300")),
         ]

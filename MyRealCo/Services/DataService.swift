@@ -97,8 +97,8 @@ class DataService: ObservableObject {
         ]
 
         messages = [
-            Message(id: "m1", senderId: "admin-1", senderName: "Sarah Johnson", recipientId: "client-1", body: "Hi Alex! I wanted to let you know your viewing for 123 Main St is confirmed for this Thursday at 2 PM. See you there!", sentAt: calendar.date(byAdding: .hour, value: -5, to: now)!, isRead: false),
-            Message(id: "m2", senderId: "admin-1", senderName: "Sarah Johnson", recipientId: "client-1", body: "Great news — the seller has accepted your offer on 123 Main St! I've sent over the purchase agreement for your review.", sentAt: calendar.date(byAdding: .hour, value: -2, to: now)!, isRead: false),
+            Message(id: "m1", senderId: "admin-1", senderName: "Sanjeev Manocha", recipientId: "client-1", body: "Hi Alex! I wanted to let you know your viewing for 123 Main St is confirmed for this Thursday at 2 PM. See you there!", sentAt: calendar.date(byAdding: .hour, value: -5, to: now)!, isRead: false),
+            Message(id: "m2", senderId: "admin-1", senderName: "Sanjeev Manocha", recipientId: "client-1", body: "Great news — the seller has accepted your offer on 123 Main St! I've sent over the purchase agreement for your review.", sentAt: calendar.date(byAdding: .hour, value: -2, to: now)!, isRead: false),
         ]
     }
 }
