@@ -73,7 +73,7 @@ struct LoginView: View {
 
                     VStack(spacing: 4) {
                         Text("Demo credentials").font(.caption).foregroundStyle(.secondary)
-                        Text("Admin: admin@myrealco.com / admin123").font(.caption2).foregroundStyle(.secondary)
+                        Text("Admin: smanocha@myrealco.com / admin123").font(.caption2).foregroundStyle(.secondary)
                         Text("Client: client@myrealco.com / client123").font(.caption2).foregroundStyle(.secondary)
                     }
                     .padding(.bottom, 32)
