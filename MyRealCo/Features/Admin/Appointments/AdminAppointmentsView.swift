@@ -4,6 +4,7 @@ struct AdminAppointmentsView: View {
     @EnvironmentObject var data: DataService
     @State private var selectedStatus: Appointment.AppointmentStatus? = nil
     @State private var showSendMessage = false
+    @State private var showAddAppointment = false
     @State private var selectedAppointment: Appointment?
 
     var filtered: [Appointment] {
@@ -49,6 +50,17 @@ struct AdminAppointmentsView: View {
                 .listStyle(.insetGrouped)
             }
             .navigationTitle("Appointments")
+            .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    Button { showAddAppointment = true } label: {
+                        Image(systemName: "plus")
+                    }
+                    .tint(Color.brandTeal)
+                }
+            }
+            .sheet(isPresented: $showAddAppointment) {
+                AddAppointmentView()
+            }
             .sheet(isPresented: $showSendMessage) {
                 if let appt = selectedAppointment {
                     SendMessageView(recipientId: appt.clientId, recipientName: appt.clientName)

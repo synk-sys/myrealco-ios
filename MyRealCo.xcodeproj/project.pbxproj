@@ -10,6 +10,7 @@
 		0BC4192B729590238E78A9FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22891A58D1DF824C70A96461 /* Assets.xcassets */; };
 		167908FB2EBC25063DC2630C /* AdminClientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6ED04A980D6373E73E3050 /* AdminClientsView.swift */; };
 		172477148BE456AD0BE7B86A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292EE49DFECA92AEDF872E2A /* LoginView.swift */; };
+		20051372536C9290A3BEF538 /* AddAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06488EC00AB8CB6BADBF182 /* AddAppointmentView.swift */; };
 		246A8E50F20A9B375BC6AC09 /* AdminRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D300866DC2B6DDE48041 /* AdminRootView.swift */; };
 		273C63499994D415A0BC1C2C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133200D2729DD78F4200849 /* AuthService.swift */; };
 		32CAAD75E995A7ABCE1584E4 /* ClientRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB425954BF7D266AB34103F /* ClientRootView.swift */; };
@@ -54,6 +55,7 @@
 		8371CDC9B1C5A48E0B42B0AE /* SendDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDocumentView.swift; sourceTree = "<group>"; };
 		96CBF07BEEEF277BB18F7CE8 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
 		AD61866E71EA2605BBDA529D /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		D06488EC00AB8CB6BADBF182 /* AddAppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAppointmentView.swift; sourceTree = "<group>"; };
 		D0D61A3CD3B75D7FCE0F1E84 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		D1E1D300866DC2B6DDE48041 /* AdminRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminRootView.swift; sourceTree = "<group>"; };
 		D2D6AF8FFCE2AD4C11156064 /* AdminListingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminListingsView.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 		A54A0782FF7AB69E24126D78 /* Appointments */ = {
 			isa = PBXGroup;
 			children = (
+				D06488EC00AB8CB6BADBF182 /* AddAppointmentView.swift */,
 				02775C1AF3E77E04B33FA53B /* AdminAppointmentsView.swift */,
 			);
 			path = Appointments;
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20051372536C9290A3BEF538 /* AddAppointmentView.swift in Sources */,
 				A4C0A810872166BA27A6E7BC /* AddEditListingView.swift in Sources */,
 				C9DB704A70A4C902106C8548 /* AdminAppointmentsView.swift in Sources */,
 				167908FB2EBC25063DC2630C /* AdminClientsView.swift in Sources */,
