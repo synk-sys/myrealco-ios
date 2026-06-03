@@ -27,9 +27,10 @@ struct AddEditListingView: View {
                         .lineLimit(3...6)
                 }
 
-                Section("Pricing") {
+                Section("Pricing (CAD)") {
                     HStack {
-                        Text("$")
+                        Text("CA$")
+                            .foregroundStyle(.secondary)
                         TextField("Price", text: $price)
                             .keyboardType(.numberPad)
                     }

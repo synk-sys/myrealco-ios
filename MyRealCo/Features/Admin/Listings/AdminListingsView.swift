@@ -88,7 +88,7 @@ struct AdminListingRow: View {
             }
             Text(listing.address).font(.subheadline).foregroundStyle(.secondary)
             HStack {
-                Text(listing.price, format: .currency(code: "USD").precision(.fractionLength(0)))
+                Text(listing.price, format: .currency(code: "CAD").precision(.fractionLength(0)))
                     .font(.subheadline.bold())
                     .foregroundStyle(Color.brandGold)
                 Spacer()
