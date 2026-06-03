@@ -28,6 +28,7 @@
 		BA839BE3F5084C43EF1249F4 /* MyRealCoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603AA859E3E4C20CBC2C3E0D /* MyRealCoApp.swift */; };
 		C11FEADCDBFF16C68D88B454 /* SendDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8371CDC9B1C5A48E0B42B0AE /* SendDocumentView.swift */; };
 		C9DB704A70A4C902106C8548 /* AdminAppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02775C1AF3E77E04B33FA53B /* AdminAppointmentsView.swift */; };
+		DFB9AEB62F01AC6E5F56EEFD /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D61A3CD3B75D7FCE0F1E84 /* SplashView.swift */; };
 		E408AC63D76A0E5D1C435E1E /* ClientAppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D301F61092606DACCDCE2CA /* ClientAppointmentsView.swift */; };
 		E8F54641D44E921CF88B069D /* ClientMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7737297767D7C69D2D3B4 /* ClientMessagesView.swift */; };
 		FFB23316B56D4E94E75AD89B /* AdminProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D80D16FECCBD8887906BA /* AdminProfileView.swift */; };
@@ -53,6 +54,7 @@
 		8371CDC9B1C5A48E0B42B0AE /* SendDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDocumentView.swift; sourceTree = "<group>"; };
 		96CBF07BEEEF277BB18F7CE8 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
 		AD61866E71EA2605BBDA529D /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		D0D61A3CD3B75D7FCE0F1E84 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		D1E1D300866DC2B6DDE48041 /* AdminRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminRootView.swift; sourceTree = "<group>"; };
 		D2D6AF8FFCE2AD4C11156064 /* AdminListingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminListingsView.swift; sourceTree = "<group>"; };
 		DA25CB958697A91EF3EADB7B /* MyRealCo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MyRealCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				292EE49DFECA92AEDF872E2A /* LoginView.swift */,
+				D0D61A3CD3B75D7FCE0F1E84 /* SplashView.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				BA839BE3F5084C43EF1249F4 /* MyRealCoApp.swift in Sources */,
 				C11FEADCDBFF16C68D88B454 /* SendDocumentView.swift in Sources */,
 				A8F282E410E81499D20AD024 /* SendMessageView.swift in Sources */,
+				DFB9AEB62F01AC6E5F56EEFD /* SplashView.swift in Sources */,
 				3BB9B3DDCCB9DEB12D4D2F63 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
