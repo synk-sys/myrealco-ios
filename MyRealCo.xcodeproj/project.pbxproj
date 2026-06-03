@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC4192B729590238E78A9FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22891A58D1DF824C70A96461 /* Assets.xcassets */; };
+		167908FB2EBC25063DC2630C /* AdminClientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6ED04A980D6373E73E3050 /* AdminClientsView.swift */; };
+		172477148BE456AD0BE7B86A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292EE49DFECA92AEDF872E2A /* LoginView.swift */; };
+		246A8E50F20A9B375BC6AC09 /* AdminRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1D300866DC2B6DDE48041 /* AdminRootView.swift */; };
+		273C63499994D415A0BC1C2C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133200D2729DD78F4200849 /* AuthService.swift */; };
+		32CAAD75E995A7ABCE1584E4 /* ClientRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB425954BF7D266AB34103F /* ClientRootView.swift */; };
+		332293416BEDB7ED1570885F /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61866E71EA2605BBDA529D /* Document.swift */; };
+		3BB9B3DDCCB9DEB12D4D2F63 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20AD8FA6AB2A05027E14DB7 /* User.swift */; };
+		47D1CC5E3FC4C425D42620B9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3D04D7A6CC5775AD91B28 /* DataService.swift */; };
+		6AA6B05F5ACB16FCB465DC27 /* AdminListingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D6AF8FFCE2AD4C11156064 /* AdminListingsView.swift */; };
+		88028C743ED07191314E3532 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC790CD985AF53118FB4D5A /* Message.swift */; };
+		88AD6F8582DE3F59BEB88A6C /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B273B4758C871641719C56 /* Appointment.swift */; };
+		A4C0A810872166BA27A6E7BC /* AddEditListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7087B5A3B46A2EA99B2FD1 /* AddEditListingView.swift */; };
+		A5CEE0624F96DB7C1945747A /* ClientDocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA035470EF3788D2CD34F4 /* ClientDocumentsView.swift */; };
+		A8B7C8865BE054407DA1F5B3 /* ClientProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B795CA3ED43EBAF5693FE55 /* ClientProfileView.swift */; };
+		A8F282E410E81499D20AD024 /* SendMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B068917B6EF4BD4C88472E1 /* SendMessageView.swift */; };
+		AD4AF61891F134FF469A1577 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CBF07BEEEF277BB18F7CE8 /* Listing.swift */; };
+		BA839BE3F5084C43EF1249F4 /* MyRealCoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603AA859E3E4C20CBC2C3E0D /* MyRealCoApp.swift */; };
+		C11FEADCDBFF16C68D88B454 /* SendDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8371CDC9B1C5A48E0B42B0AE /* SendDocumentView.swift */; };
+		C9DB704A70A4C902106C8548 /* AdminAppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02775C1AF3E77E04B33FA53B /* AdminAppointmentsView.swift */; };
+		E408AC63D76A0E5D1C435E1E /* ClientAppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D301F61092606DACCDCE2CA /* ClientAppointmentsView.swift */; };
+		E8F54641D44E921CF88B069D /* ClientMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C7737297767D7C69D2D3B4 /* ClientMessagesView.swift */; };
+		FFB23316B56D4E94E75AD89B /* AdminProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D80D16FECCBD8887906BA /* AdminProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0133200D2729DD78F4200849 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		02775C1AF3E77E04B33FA53B /* AdminAppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAppointmentsView.swift; sourceTree = "<group>"; };
+		13C7737297767D7C69D2D3B4 /* ClientMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientMessagesView.swift; sourceTree = "<group>"; };
+		1B795CA3ED43EBAF5693FE55 /* ClientProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProfileView.swift; sourceTree = "<group>"; };
+		1FB3D04D7A6CC5775AD91B28 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		22891A58D1DF824C70A96461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		292EE49DFECA92AEDF872E2A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2A7D80D16FECCBD8887906BA /* AdminProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProfileView.swift; sourceTree = "<group>"; };
+		3E6ED04A980D6373E73E3050 /* AdminClientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminClientsView.swift; sourceTree = "<group>"; };
+		4D301F61092606DACCDCE2CA /* ClientAppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientAppointmentsView.swift; sourceTree = "<group>"; };
+		603AA859E3E4C20CBC2C3E0D /* MyRealCoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRealCoApp.swift; sourceTree = "<group>"; };
+		6F7087B5A3B46A2EA99B2FD1 /* AddEditListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditListingView.swift; sourceTree = "<group>"; };
+		73CA035470EF3788D2CD34F4 /* ClientDocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDocumentsView.swift; sourceTree = "<group>"; };
+		7B068917B6EF4BD4C88472E1 /* SendMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageView.swift; sourceTree = "<group>"; };
+		80B273B4758C871641719C56 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		8371CDC9B1C5A48E0B42B0AE /* SendDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDocumentView.swift; sourceTree = "<group>"; };
+		96CBF07BEEEF277BB18F7CE8 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
+		AD61866E71EA2605BBDA529D /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		D1E1D300866DC2B6DDE48041 /* AdminRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminRootView.swift; sourceTree = "<group>"; };
+		D2D6AF8FFCE2AD4C11156064 /* AdminListingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminListingsView.swift; sourceTree = "<group>"; };
+		DA25CB958697A91EF3EADB7B /* MyRealCo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MyRealCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB425954BF7D266AB34103F /* ClientRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientRootView.swift; sourceTree = "<group>"; };
+		E20AD8FA6AB2A05027E14DB7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FEC790CD985AF53118FB4D5A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0F8FCD736E62FCE6978A8E50 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				1B795CA3ED43EBAF5693FE55 /* ClientProfileView.swift */,
+				DFB425954BF7D266AB34103F /* ClientRootView.swift */,
+				18BB1456822D1C52E0C52FFF /* Appointments */,
+				366204B5E2F436A17728BE3E /* Documents */,
+				9A77C04EE6C946371B58D45D /* Messages */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		11A8E0662A9A2E62AAB54115 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0133200D2729DD78F4200849 /* AuthService.swift */,
+				1FB3D04D7A6CC5775AD91B28 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		16819241B573FDB52122290F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				292EE49DFECA92AEDF872E2A /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		18BB1456822D1C52E0C52FFF /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				4D301F61092606DACCDCE2CA /* ClientAppointmentsView.swift */,
+			);
+			path = Appointments;
+			sourceTree = "<group>";
+		};
+		1E3F5DB4B14CB267F5665AB8 /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+				6F7087B5A3B46A2EA99B2FD1 /* AddEditListingView.swift */,
+				D2D6AF8FFCE2AD4C11156064 /* AdminListingsView.swift */,
+			);
+			path = Listings;
+			sourceTree = "<group>";
+		};
+		3275F0A647ABEAD6FDDEBE86 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				603AA859E3E4C20CBC2C3E0D /* MyRealCoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		366204B5E2F436A17728BE3E /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				73CA035470EF3788D2CD34F4 /* ClientDocumentsView.swift */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		557E15A1430CBE8ACC5C069D /* MyRealCo */ = {
+			isa = PBXGroup;
+			children = (
+				3275F0A647ABEAD6FDDEBE86 /* App */,
+				D29A033C0D36F1D745B8CDFF /* Features */,
+				8EE1AA85AC29D0E2D49E1B20 /* Models */,
+				A4248641A6BCD3440E21D610 /* Resources */,
+				11A8E0662A9A2E62AAB54115 /* Services */,
+			);
+			path = MyRealCo;
+			sourceTree = "<group>";
+		};
+		8126BA35056B5C5398EA0E52 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				3E6ED04A980D6373E73E3050 /* AdminClientsView.swift */,
+				2A7D80D16FECCBD8887906BA /* AdminProfileView.swift */,
+				D1E1D300866DC2B6DDE48041 /* AdminRootView.swift */,
+				8371CDC9B1C5A48E0B42B0AE /* SendDocumentView.swift */,
+				7B068917B6EF4BD4C88472E1 /* SendMessageView.swift */,
+				A54A0782FF7AB69E24126D78 /* Appointments */,
+				1E3F5DB4B14CB267F5665AB8 /* Listings */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		8EE1AA85AC29D0E2D49E1B20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80B273B4758C871641719C56 /* Appointment.swift */,
+				AD61866E71EA2605BBDA529D /* Document.swift */,
+				96CBF07BEEEF277BB18F7CE8 /* Listing.swift */,
+				FEC790CD985AF53118FB4D5A /* Message.swift */,
+				E20AD8FA6AB2A05027E14DB7 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A77C04EE6C946371B58D45D /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				13C7737297767D7C69D2D3B4 /* ClientMessagesView.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		A4248641A6BCD3440E21D610 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22891A58D1DF824C70A96461 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A54A0782FF7AB69E24126D78 /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				02775C1AF3E77E04B33FA53B /* AdminAppointmentsView.swift */,
+			);
+			path = Appointments;
+			sourceTree = "<group>";
+		};
+		B0B6D4962679CCE6596E283E = {
+			isa = PBXGroup;
+			children = (
+				557E15A1430CBE8ACC5C069D /* MyRealCo */,
+				F2245DC6D344155136C400F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D29A033C0D36F1D745B8CDFF /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				8126BA35056B5C5398EA0E52 /* Admin */,
+				16819241B573FDB52122290F /* Auth */,
+				0F8FCD736E62FCE6978A8E50 /* Client */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F2245DC6D344155136C400F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA25CB958697A91EF3EADB7B /* MyRealCo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA20A62A2F80A9D0A8DA5E96 /* MyRealCo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33230DA6A50B85584B40B3E8 /* Build configuration list for PBXNativeTarget "MyRealCo" */;
+			buildPhases = (
+				54F79778D87946CDD4A6BDFA /* Sources */,
+				FC6EC5EC116B47198E8C5D57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRealCo;
+			packageProductDependencies = (
+			);
+			productName = MyRealCo;
+			productReference = DA25CB958697A91EF3EADB7B /* MyRealCo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54A1DB65DAA3763882898E1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = A0DBE7BF7FA70494A54F05C2 /* Build configuration list for PBXProject "MyRealCo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B0B6D4962679CCE6596E283E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F2245DC6D344155136C400F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA20A62A2F80A9D0A8DA5E96 /* MyRealCo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6EC5EC116B47198E8C5D57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC4192B729590238E78A9FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F79778D87946CDD4A6BDFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C0A810872166BA27A6E7BC /* AddEditListingView.swift in Sources */,
+				C9DB704A70A4C902106C8548 /* AdminAppointmentsView.swift in Sources */,
+				167908FB2EBC25063DC2630C /* AdminClientsView.swift in Sources */,
+				6AA6B05F5ACB16FCB465DC27 /* AdminListingsView.swift in Sources */,
+				FFB23316B56D4E94E75AD89B /* AdminProfileView.swift in Sources */,
+				246A8E50F20A9B375BC6AC09 /* AdminRootView.swift in Sources */,
+				88AD6F8582DE3F59BEB88A6C /* Appointment.swift in Sources */,
+				273C63499994D415A0BC1C2C /* AuthService.swift in Sources */,
+				E408AC63D76A0E5D1C435E1E /* ClientAppointmentsView.swift in Sources */,
+				A5CEE0624F96DB7C1945747A /* ClientDocumentsView.swift in Sources */,
+				E8F54641D44E921CF88B069D /* ClientMessagesView.swift in Sources */,
+				A8B7C8865BE054407DA1F5B3 /* ClientProfileView.swift in Sources */,
+				32CAAD75E995A7ABCE1584E4 /* ClientRootView.swift in Sources */,
+				47D1CC5E3FC4C425D42620B9 /* DataService.swift in Sources */,
+				332293416BEDB7ED1570885F /* Document.swift in Sources */,
+				AD4AF61891F134FF469A1577 /* Listing.swift in Sources */,
+				172477148BE456AD0BE7B86A /* LoginView.swift in Sources */,
+				88028C743ED07191314E3532 /* Message.swift in Sources */,
+				BA839BE3F5084C43EF1249F4 /* MyRealCoApp.swift in Sources */,
+				C11FEADCDBFF16C68D88B454 /* SendDocumentView.swift in Sources */,
+				A8F282E410E81499D20AD024 /* SendMessageView.swift in Sources */,
+				3BB9B3DDCCB9DEB12D4D2F63 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08BF0AB980A914EF4E259BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7010CDFF602905EDAFFAB061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyRealCo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myrealco.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7FC171AC64761DB1CD1CF79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CC1288F78943D7B6ABFA8264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyRealCo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myrealco.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33230DA6A50B85584B40B3E8 /* Build configuration list for PBXNativeTarget "MyRealCo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7010CDFF602905EDAFFAB061 /* Debug */,
+				CC1288F78943D7B6ABFA8264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0DBE7BF7FA70494A54F05C2 /* Build configuration list for PBXProject "MyRealCo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BF0AB980A914EF4E259BCA /* Debug */,
+				B7FC171AC64761DB1CD1CF79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54A1DB65DAA3763882898E1F /* Project object */;
+}

@@ -1,0 +1,44 @@
+name: MyRealCo
+options:
+  bundleIdPrefix: com.myrealco
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "15.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    TARGETED_DEVICE_FAMILY: "1"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+
+targets:
+  MyRealCo:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: MyRealCo
+        excludes:
+          - "**/*.plist"
+    resources:
+      - path: MyRealCo/Resources/Assets.xcassets
+      - path: MyRealCo/Info.plist
+    info:
+      path: MyRealCo/Info.plist
+      properties:
+        CFBundleDisplayName: MyRealCo
+        CFBundleShortVersionString: "1.0.0"
+        CFBundleVersion: "1"
+        LSRequiresIPhoneOS: true
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.myrealco.app
+        INFOPLIST_FILE: MyRealCo/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_PREVIEWS: YES
